@@ -14,31 +14,31 @@ export interface SailingCarouselProps {}
 const topDestination = [
   {
     id: 1,
-    image: '/assets/images/yacht/boat-1.png',
+    image: '/assets/images/yacht/yacht-1.png',
     rental_location: 'Manhattan Luxury Boat at Chelsea Piers',
     city: 'Powerboats in Manhattan',
   },
   {
     id: 2,
-    image: '/assets/images/yacht/boat-2.png',
+    image: '/assets/images/yacht/yacht-2.png',
     rental_location: 'Fishing & Cruising New York City',
     city: 'Powerboats in Long Island',
   },
   {
     id: 3,
-    image: '/assets/images/yacht/boat-3.png',
+    image: '/assets/images/yacht/yacht-3.png',
     rental_location: 'Classic Yacht Charter in New York, New York',
     city: 'Sailing in Manhattan',
   },
   {
     id: 4,
-    image: '/assets/images/yacht/boat-4.png',
+    image: '/assets/images/yacht/yacht-4.png',
     rental_location: 'La Vie on Rose in New York and New Jersey',
     city: 'Sailing in Manhattan',
   },
   {
     id: 5,
-    image: '/assets/images/yacht/boat-5.png',
+    image: '/assets/images/yacht/yacht-5.png',
     rental_location: 'Classic Picnic Motorboat in New Yor...',
     city: 'Motorboat in Manhattan',
   },

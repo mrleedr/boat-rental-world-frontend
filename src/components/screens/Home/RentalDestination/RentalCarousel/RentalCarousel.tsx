@@ -14,31 +14,31 @@ export interface DestinationCardProps {}
 const Rentals = [
   {
     id: 1,
-    image: '/assets/images/yacht/boat-1.png',
+    image: '/assets/images/yacht/yacht-1.png',
     rental_location: 'Seven Mile Beach',
     available: 20,
   },
   {
     id: 2,
-    image: '/assets/images/yacht/boat-2.png',
+    image: '/assets/images/yacht/yacht-2.png',
     rental_location: 'Stingray City',
     available: 40,
   },
   {
     id: 3,
-    image: '/assets/images/yacht/boat-3.png',
+    image: '/assets/images/yacht/yacht-3.png',
     rental_location: 'Diving in the Cayman Islands',
     available: 38,
   },
   {
     id: 4,
-    image: '/assets/images/yacht/boat-4.png',
+    image: '/assets/images/yacht/yacht-4.png',
     rental_location: 'Atlantis Submarines',
     available: 28,
   },
   {
     id: 5,
-    image: '/assets/images/yacht/boat-5.png',
+    image: '/assets/images/yacht/yacht-5.png',
     rental_location: 'Bloody Bay Marine Reserve',
     available: 30,
   },
