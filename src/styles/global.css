@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Didact+Gothic&family=Manjari:wght@100;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Swiper*/
+
+
+.swiper-pagination-bullet{
+  padding: 1px;
+}
+
+.swiper-pagination-bullet-active{
+  outline-style:solid;
+  outline-width: 1px;
+  outline-color: black;
+  outline-offset:6px;
+  background-color:black !important;
+  
+}
+.swiper-pagination { 
+  padding:2px;
+  display: flex;
+  gap:5px;
+  justify-content:center;
+  align-items: center;
+  position: relative!important;
+}
+
+.swiper-pagination * { 
+ color:black
+}
+
+.swiper-container {
+  width: 480px;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+
+  .swiper-pagination-bullet{
+    padding: 2px;
+  }
+
+  .swiper-pagination-bullet-active{
+    outline-offset:10px;
+  }
+
+  .swiper-pagination { 
+    gap:15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+  .swiper-pagination-bullet{
+    padding: 5px;
+  }
+}
