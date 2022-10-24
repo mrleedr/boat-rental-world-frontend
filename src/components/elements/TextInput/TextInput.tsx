@@ -51,9 +51,9 @@ export const TextInput: FC<TextInputProps> = ({
           'flex items-center': leadingText,
         })}
       >
-        <div className="absolute flex items-center justify-between w-full px-3 rounded-lg shadow-sm pointer-events-none h-11">
+        <div className="pointer-events-none absolute flex h-11 w-full items-center justify-between rounded-lg px-3 shadow-sm">
           {LeadingIcon ? (
-            <LeadingIcon.type className="w-5 h-5 text-gray-500" />
+            <LeadingIcon.type className="h-5 w-5 text-gray-500" />
           ) : (
             <div />
           )}
