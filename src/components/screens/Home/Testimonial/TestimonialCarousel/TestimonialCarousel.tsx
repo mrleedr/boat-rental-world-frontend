@@ -72,7 +72,7 @@ export const TestimonialCarousel = () => {
   // };
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -84,8 +84,6 @@ export const TestimonialCarousel = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -93,7 +91,6 @@ export const TestimonialCarousel = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 1,
         },
       },
       {
