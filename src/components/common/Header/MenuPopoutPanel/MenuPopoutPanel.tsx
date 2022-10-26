@@ -6,7 +6,7 @@ import React, { Fragment } from 'react';
 import { Button } from '@/components/elements/Button';
 import { Typography } from '@/components/elements/Typography';
 import About from '@/public/assets/images/icon/About.svg';
-import Comunity from '@/public/assets/images/icon/Comunity.svg';
+import Community from '@/public/assets/images/icon/Community.svg';
 import Guide from '@/public/assets/images/icon/Guide.svg';
 import Partners from '@/public/assets/images/icon/Partners.svg';
 
@@ -77,14 +77,14 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                         <li className="flex items-center gap-5">
                           <div>
                             <Image
-                              src={Comunity}
-                              alt="comunity"
+                              src={Community}
+                              alt="community"
                               width={24}
                               height={24}
                             />
                           </div>
                           <Typography variant="lg" className="font-manjari">
-                            Comunity
+                            Community
                           </Typography>
                         </li>
                         <li className="flex items-center gap-5">

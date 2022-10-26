@@ -41,7 +41,7 @@ export const Header = () => {
       <div
         className={classNames(
           color,
-          'fixed top-0 z-10 flex items-center justify-between w-full h-10 border-y border-slate-100/50 md:h-14 lg:h-20'
+          'fixed top-0 z-20 flex items-center justify-between w-full h-10 border-y border-slate-100/50 md:h-14 lg:h-20'
         )}
       >
         <div className="relative ml-5 h-10 w-56 md:ml-6">

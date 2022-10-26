@@ -1,11 +1,9 @@
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 import Image from 'next/image';
 import React from 'react';
-import { Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import Slider from 'react-slick';
 
 import { Typography } from '@/components/elements/Typography';
 
@@ -71,42 +69,54 @@ export const SailingDestinationCard = ({ image, location, available }: any) => {
 };
 
 export const SailingCarousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    initialSlide: 0,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <>
-      <Swiper
-        slidesPerView={2}
-        slidesPerGroup={2}
-        loop={true}
-        grabCursor={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination, Navigation]}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 3,
-          },
-          1440: {
-            slidesPerView: 5,
-          },
-        }}
-        // eslint-disable-next-line tailwindcss/no-custom-classname
-        className="mySwiper"
-      >
-        {topDestination.map((item: any) => (
-          <SwiperSlide key={item.id}>
-            <SailingDestinationCard
-              key={item.id}
-              image={item.image}
-              location={item.rental_location}
-              available={item.city}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="px-4">
+        <Slider {...settings}>
+          {topDestination.map((rental: any) => (
+            <div key={rental.id}>
+              <SailingDestinationCard
+                key={rental.id}
+                image={rental.image}
+                location={rental.rental_location}
+                available={rental.available}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
     </>
   );
 };
