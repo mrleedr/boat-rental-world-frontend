@@ -18,13 +18,13 @@ const ButtonVariantClasses: Record<
     hover: classNames(
       'hover:bg-gradient-to-r hover:from-yellow-800 hover:to-yellow-800'
     ),
-    focus: classNames('focus:ring-2 focus:ring-yellow-500'),
+    focus: classNames(''),
     disabled: classNames('bg-yellow-300 text-yellow-800'),
   },
   secondary: {
     default: classNames('border-2 border-yellow-500 bg-white text-yellow-900'),
     hover: classNames(
-      'hover:border-white hover:bg-gradient-to-r hover:from-yellow-300 hover:to-yellow-800'
+      'hover:bg-gradient-to-r hover:from-yellow-800 hover:to-yellow-800'
     ),
     focus: '',
     disabled: classNames(
@@ -82,7 +82,7 @@ export const Button: FC<ButtonProps> = ({
     <button
       {...buttonProps}
       className={classNames(
-        'flex items-center rounded-full font-manjari text-center font-medium focus:outline-none whitespace-nowrap select-none',
+        'flex items-center rounded-full font-inter text-center font-medium focus:outline-none whitespace-nowrap select-none',
         className,
         {
           [ButtonSizeClasses[size]]: !IconOnly,
@@ -110,15 +110,7 @@ export const Button: FC<ButtonProps> = ({
           )}
         />
       ) : null}
-      <span
-        className={classNames({
-          'mt-1': size === 'sm',
-          'mt-1.5': size === 'md',
-          'mt-[6px]': size === 'lg',
-        })}
-      >
-        {children}
-      </span>
+      <span>{children}</span>
       {IconOnly ? (
         <IconOnly.type {...IconOnly.props} size={size === 'lg' ? 24 : 20} />
       ) : null}
@@ -157,7 +149,7 @@ export const Button: FC<ButtonProps> = ({
 //         className={`my-auto flex w-full items-center
 //       justify-center  rounded-full bg-gradient-to-r
 //      from-yellow-300 to-yellow-800 py-1
-//      pt-3 font-dmserif text-yellow-900  hover:from-yellow-800 hover:to-yellow-800 focus:outline-none ${className}`}
+//      pt-3 font-playfair text-yellow-900  hover:from-yellow-800 hover:to-yellow-800 focus:outline-none ${className}`}
 //         {...props}
 //       >
 //         {children}

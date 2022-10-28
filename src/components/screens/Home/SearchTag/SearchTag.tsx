@@ -26,7 +26,7 @@ export const SearchTag = () => {
   return (
     <SectionContainer>
       <div className=" flex flex-col items-center gap-6">
-        <Typography variant="h3" className="font-dmserif">
+        <Typography variant="h3" className="font-playfair">
           Most Searched
         </Typography>
         <div className="flex flex-wrap justify-center gap-2 md:gap-3 lg:gap-4">

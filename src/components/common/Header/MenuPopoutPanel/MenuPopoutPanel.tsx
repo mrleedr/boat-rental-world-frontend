@@ -1,6 +1,7 @@
 import { Dialog, Transition } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { Fragment } from 'react';
 
 import { Button } from '@/components/elements/Button';
@@ -50,79 +51,88 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                       <Typography
                         variant="h6"
                         customWeight="bold"
-                        className="text-center font-manjari"
+                        className="text-center font-inter"
                       >
                         Join 15,000 + others in booking their next destination
                       </Typography>
                     </div>
                     <div className="flex justify-center gap-4">
-                      <Button
-                        variant="primary"
-                        size="md"
-                        className="w-36 justify-center"
-                      >
-                        Login
-                      </Button>
-                      <Button
-                        variant="secondary"
-                        size="md"
-                        className="w-36 justify-center"
-                      >
-                        Register
-                      </Button>
+                      <Link href="/auth/login">
+                        <a>
+                          <Button
+                            variant="primary"
+                            size="md"
+                            className="w-36 justify-center"
+                          >
+                            Login
+                          </Button>
+                        </a>
+                      </Link>
+
+                      <Link href="/auth/register">
+                        <a>
+                          <Button
+                            variant="secondary"
+                            size="md"
+                            className="w-36 justify-center"
+                          >
+                            Register
+                          </Button>
+                        </a>
+                      </Link>
                     </div>
                     <div className="h-[1px] bg-gray-500"></div>
                     <div>
                       <ul className="flex flex-col gap-4">
                         <li className="flex items-center gap-5">
-                          <div>
+                          <div className="flex items-center">
                             <Image
                               src={Community}
-                              alt="community"
+                              alt="icon"
                               width={24}
                               height={24}
                             />
                           </div>
-                          <Typography variant="lg" className="font-manjari">
+                          <Typography variant="lg" className="font-inter">
                             Community
                           </Typography>
                         </li>
                         <li className="flex items-center gap-5">
-                          <div>
+                          <div className="flex items-center">
                             <Image
                               src={Partners}
-                              alt="comunity"
+                              alt="icon"
                               width={24}
                               height={24}
                             />
                           </div>
-                          <Typography variant="lg" className="font-manjari">
+                          <Typography variant="lg" className="font-inter">
                             Partners
                           </Typography>
                         </li>
                         <li className="flex items-center gap-5">
-                          <div>
+                          <div className="flex items-center">
                             <Image
                               src={Guide}
-                              alt="comunity"
+                              alt="icon"
                               width={24}
                               height={24}
                             />
                           </div>
-                          <Typography variant="lg" className="font-manjari">
+                          <Typography variant="lg" className="font-inter">
                             Guide
                           </Typography>
                         </li>
                         <li className="flex items-center gap-5">
-                          <div>
+                          <div className="flex items-center">
                             <Image
                               src={About}
-                              alt="comunity"
+                              alt="icon"
                               width={24}
                               height={24}
                             />
                           </div>
-                          <Typography variant="lg" className="font-manjari">
+                          <Typography variant="lg" className="font-inter">
                             About
                           </Typography>
                         </li>
@@ -135,7 +145,7 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                           <Typography
                             variant="lg"
                             customColor="text-gray-500"
-                            className="font-manjari"
+                            className="font-inter"
                           >
                             Customers
                           </Typography>
@@ -144,7 +154,7 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                           <Typography
                             variant="lg"
                             customColor="text-gray-500"
-                            className="font-manjari"
+                            className="font-inter"
                           >
                             Webinars
                           </Typography>
@@ -153,7 +163,7 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                           <Typography
                             variant="lg"
                             customColor="text-gray-500"
-                            className="font-manjari"
+                            className="font-inter"
                           >
                             Careers
                           </Typography>
@@ -162,7 +172,7 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                           <Typography
                             variant="lg"
                             customColor="text-gray-500"
-                            className="font-manjari"
+                            className="font-inter"
                           >
                             Press
                           </Typography>
@@ -171,7 +181,7 @@ export const MenuPopoutPanel = ({ open, setOpen }: any) => {
                           <Typography
                             variant="lg"
                             customColor="text-gray-500"
-                            className="font-manjari"
+                            className="font-inter"
                           >
                             Privacy
                           </Typography>

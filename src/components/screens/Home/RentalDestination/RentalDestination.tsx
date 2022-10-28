@@ -27,10 +27,10 @@ export const RentalDestination = () => {
   return (
     <SectionContainer background="bg-gray-100">
       <div className="flex w-11/12 flex-col gap-5 xl:w-1/2">
-        <Typography variant="h3" className="font-dmserif">
+        <Typography variant="h3" className="font-playfair">
           Top Destinations
         </Typography>
-        <Typography variant="lg" className="font-manjari">
+        <Typography variant="lg" className="font-inter">
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat.
         </Typography>
@@ -46,7 +46,7 @@ export const RentalDestination = () => {
                 <Typography
                   variant="lg"
                   customColor="text-gray-500 hover:text-black"
-                  className="cursor-pointer font-manjari"
+                  className="cursor-pointer font-inter"
                 >
                   {item.title}
                 </Typography>

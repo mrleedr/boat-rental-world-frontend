@@ -25,7 +25,7 @@ export const Service = ({ image, title }: any) => {
       </div>
 
       <div className="flex gap-3 lg:gap-1">
-        <Typography variant="lg" className="font-manjari leading-none">
+        <Typography variant="lg" className="font-inter leading-none">
           {title}
         </Typography>
       </div>
@@ -41,12 +41,12 @@ export const MobileApp = () => {
           <div className="flex flex-col gap-4">
             <Typography
               variant="h3"
-              className="mb-5 w-[90%] font-dmserif leading-none xl:mb-0 xl:w-full"
+              className="mb-5 w-[90%] font-playfair leading-none xl:mb-0 xl:w-full"
             >
               Find and book boat rentals, jet skis, yachts, pontoon boats, and
               fishing charters.
             </Typography>
-            <Typography variant="lg" className="font-manjari">
+            <Typography variant="lg" className="font-inter">
               For captained experiences and drive-it-yourself rentals, GetMyBoat
               is the easiest way to find fun on the water anywhere in the world.
               Connect directly with boat owners and captains to securely book

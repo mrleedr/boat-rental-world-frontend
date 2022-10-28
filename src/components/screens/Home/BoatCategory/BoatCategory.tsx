@@ -52,10 +52,10 @@ export const BoatCategory = () => {
     <SectionContainer background="bg-gray-100">
       <div className="block xl:flex">
         <div className="flex w-11/12 flex-col gap-4 xl:w-4/12 xl:pt-5">
-          <Typography variant="h3" className="font-dmserif">
+          <Typography variant="h3" className="font-playfair">
             Boat Types and Categories
           </Typography>
-          <Typography variant="lg" className="font-manjari">
+          <Typography variant="lg" className="font-inter">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui.

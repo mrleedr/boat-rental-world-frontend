@@ -21,9 +21,8 @@ module.exports = {
       h1: ['72px', '90px'],
     },
     fontFamily: {
-      didact: ['Didact Gothic', ...defaultTheme.fontFamily.sans],
-      dmserif: ['DM Serif Display', ...defaultTheme.fontFamily.serif],
-      manjari: ['Manjari', ...defaultTheme.fontFamily.sans],
+      playfair: ['Playfair Display', ...defaultTheme.fontFamily.serif],
+      inter: ['Inter', ...defaultTheme.fontFamily.sans],
     },
     extend: {
       backgroundImage: {

@@ -13,7 +13,7 @@ export const Testimonial = () => {
       <div className="flex flex-col gap-6 xl:my-4 xl:gap-10">
         <div className="flex justify-between">
           <div className="w-full xl:w-5/12">
-            <Typography variant="h3" className="font-dmserif">
+            <Typography variant="h3" className="font-playfair">
               Every sailing adventure is unique. Here’s ours.
             </Typography>
           </div>

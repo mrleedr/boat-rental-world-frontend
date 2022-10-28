@@ -5,6 +5,7 @@ import {
 } from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 import { Typography } from '@/components/elements/Typography';
@@ -45,7 +46,11 @@ export const Header = () => {
         )}
       >
         <div className="relative ml-5 h-10 w-56 md:ml-6">
-          <Image layout="fill" src={logo} alt="logo" />
+          <Link href="/">
+            <a>
+              <Image layout="fill" src={logo} alt="logo" />
+            </a>
+          </Link>
         </div>
         <div className="flex items-center">
           <div
@@ -58,7 +63,7 @@ export const Header = () => {
               variant="md"
               customWeight="medium"
               customColor={textColor}
-              className="font-manjari"
+              className="font-inter"
             >
               Register you Yacht
             </Typography>

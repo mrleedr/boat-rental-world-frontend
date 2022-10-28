@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { Footer } from '@/components/common/Footer';
 import { Header } from '@/components/common/Header';
 import { Button } from '@/components/elements/Button';
@@ -23,12 +25,14 @@ const RegisterPage = () => {
               <h2 className="text-xl">Create account</h2>
               <p className="mt-2 text-sm text-gray-500">
                 Or{' '}
-                <a
-                  href="#"
-                  className="font-medium text-yellow-500 hover:text-yellow-500"
-                >
-                  login
-                </a>
+                <Link href="/auth/login">
+                  <a
+                    href="#"
+                    className="font-medium text-yellow-500 hover:text-yellow-500"
+                  >
+                    login
+                  </a>
+                </Link>
               </p>
             </div>
 

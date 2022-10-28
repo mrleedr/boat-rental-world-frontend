@@ -22,14 +22,14 @@ export const DestinationCard = ({ ...props }: DestinationCardProps) => {
           <Typography
             variant="h2"
             customWeight="medium"
-            className="font-dmserif"
+            className="font-playfair"
           >
             Discover Yacht Voyage Experiences
           </Typography>
           <Typography
             variant="lg"
             customWeight="medium"
-            className="font-dmserif"
+            className="font-playfair"
           >
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat.
@@ -54,33 +54,33 @@ export const DestinationCard = ({ ...props }: DestinationCardProps) => {
             >
               Search
             </Button>
-            <div className="flex flex-wrap items-center gap-1 pt-3 font-manjari md:gap-2">
+            <div className="flex flex-wrap items-center gap-1 pt-3 font-inter md:gap-2">
               Most searched:
               <Typography
                 variant="sm"
                 customWeight="medium"
-                className="font-manjari underline "
+                className="font-inter underline "
               >
                 Zurich
               </Typography>
               <Typography
                 variant="sm"
                 customWeight="medium"
-                className="font-manjari underline "
+                className="font-inter underline "
               >
                 Playa del Carmen
               </Typography>
               <Typography
                 variant="sm"
                 customWeight="medium"
-                className="font-manjari underline "
+                className="font-inter underline "
               >
                 Alicante
               </Typography>
               <Typography
                 variant="sm"
                 customWeight="medium"
-                className="font-manjari underline"
+                className="font-inter underline"
               >
                 Amalfi Coast
               </Typography>

@@ -36,10 +36,10 @@ export const SailingDestination = () => {
   return (
     <SectionContainer>
       <div className="my-4 flex w-[90%] flex-col gap-5  xl:w-[50%]">
-        <Typography variant="h3" className="font-dmserif">
+        <Typography variant="h3" className="font-playfair">
           Top Destinations
         </Typography>
-        <Typography variant="lg" className="font-manjari">
+        <Typography variant="lg" className="font-inter">
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat.
         </Typography>
@@ -55,7 +55,7 @@ export const SailingDestination = () => {
                 <Typography
                   variant="lg"
                   customColor="text-gray-500 hover:text-black"
-                  className="cursor-pointer font-manjari"
+                  className="cursor-pointer font-inter"
                 >
                   {item.title}
                 </Typography>
@@ -80,18 +80,18 @@ export const SailingDestination = () => {
             <Typography
               variant="md"
               customColor="text-gray-500"
-              className="font-manjari"
+              className="font-inter"
             >
               80+ available listings in this destination
             </Typography>
             <div className="flex items-center gap-2">
               <MapPinIcon className="w-7" />
-              <Typography variant="h6" className="font-manjari">
+              <Typography variant="h6" className="font-inter">
                 New York City
               </Typography>
             </div>
 
-            <Typography variant="sm" className="font-manjari">
+            <Typography variant="sm" className="font-inter">
               Facilisis magna etiam tempor orci eu lobortis elementum nibh. Nec
               feugiat in fermentum posuere urna nec. Fringilla est ullamcorper
               eget nulla facilisi etiam dignissim diam. Cras fermentum odio eu
@@ -102,7 +102,7 @@ export const SailingDestination = () => {
         </div>
       </div>
       <div>
-        <Typography variant="xl" className="font-manjari">
+        <Typography variant="xl" className="font-inter">
           Discover New York Citys sailing hotspots.
         </Typography>
       </div>

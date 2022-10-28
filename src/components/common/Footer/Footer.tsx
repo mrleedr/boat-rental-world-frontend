@@ -49,7 +49,7 @@ export const Footer = () => {
                   alt="logo"
                 />
               </div>
-              <Typography variant="lg" className="font-manjari">
+              <Typography variant="lg" className="font-inter">
                 Venenatis tellus in metus vulputate eu scelerisque felis. Dictum
                 fusce ut placerat orci. Cursus euismod quis viverra nibh. Diam
                 donec adipiscing tristique risus nec feugiat in. Tellus mauris a
@@ -61,7 +61,7 @@ export const Footer = () => {
                 <Typography
                   variant="xl"
                   customWeight="bold"
-                  className="font-manjari"
+                  className="font-inter"
                 >
                   Quick Links
                 </Typography>
@@ -87,7 +87,7 @@ export const Footer = () => {
                 <Typography
                   variant="xl"
                   customWeight="bold"
-                  className="font-manjari"
+                  className="font-inter"
                 >
                   Experiences
                 </Typography>
@@ -113,7 +113,7 @@ export const Footer = () => {
                 <Typography
                   variant="xl"
                   customWeight="bold"
-                  className="font-manjari"
+                  className="font-inter"
                 >
                   Information
                 </Typography>

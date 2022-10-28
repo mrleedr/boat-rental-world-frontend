@@ -29,10 +29,10 @@ export const FeatureCard = ({
         </div>
 
         <div className="flex flex-col gap-1">
-          <Typography variant="xl" customWeight="bold" className="font-manjari">
+          <Typography variant="xl" customWeight="bold" className="font-inter">
             {title}
           </Typography>
-          <Typography variant="md" className="font-manjari">
+          <Typography variant="md" className="font-inter">
             {description}
           </Typography>
         </div>
