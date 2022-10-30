@@ -44,9 +44,9 @@ export const Navbars = () => {
           colorChange ? 'bg-white' : 'lg:bg-transparent'
         )}
       >
-        <div className="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-full px-4 sm:px-6 lg:px-8 py-2 lg:py-0">
           <div className="relative flex justify-between lg:gap-8 xl:grid xl:grid-cols-12">
-            <div className="flex lg:absolute lg:inset-y-0 lg:left-0 xl:static xl:col-span-1">
+            <div className="flex xl:col-span-1">
               <div className="flex shrink-0 items-center">
                 <a href="#">
                   {colorChange ? (
@@ -65,7 +65,7 @@ export const Navbars = () => {
                 </a>
               </div>
             </div>
-            <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-5">
+            <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-5 hidden lg:block">
               <div className="flex items-center px-6 py-4 md:mx-auto md:max-w-3xl lg:mx-0 lg:max-w-none xl:px-0">
                 <div className="w-full">
                   <label htmlFor="search" className="sr-only">
@@ -127,54 +127,57 @@ export const Navbars = () => {
                 Create account
               </a>
 
-              <a
-                href="#"
-                className="ml-5 shrink-0 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-casablanca-500 focus:ring-offset-2"
-              >
-                <span className="sr-only">View notifications</span>
-                <BellIcon className="h-6 w-6" aria-hidden="true" />
-              </a>
-
-              {/* Profile dropdown */}
-              <Menu as="div" className="relative ml-5 shrink-0">
-                <div>
-                  <Menu.Button className="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-casablanca-500 focus:ring-offset-2">
-                    <span className="sr-only">Open user menu</span>
-                    <img
-                      className="h-8 w-8 rounded-full"
-                      src={user.imageUrl}
-                      alt=""
-                    />
-                  </Menu.Button>
-                </div>
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
-                >
-                  <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none">
-                    {userNavigation.map((item) => (
-                      <Menu.Item key={item.name}>
-                        {({ active }) => (
-                          <a
-                            href={item.href}
-                            className={classNames(
-                              active ? 'bg-gray-100' : '',
-                              'block py-2 px-4 text-sm text-gray-700'
+              {false && (
+                <>
+                  {' '}
+                  <a
+                    href="#"
+                    className="ml-5 shrink-0 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-casablanca-500 focus:ring-offset-2"
+                  >
+                    <span className="sr-only">View notifications</span>
+                    <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  </a>
+                  <Menu as="div" className="relative ml-5 shrink-0">
+                    <div>
+                      <Menu.Button className="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-casablanca-500 focus:ring-offset-2">
+                        <span className="sr-only">Open user menu</span>
+                        <img
+                          className="h-8 w-8 rounded-full"
+                          src={user.imageUrl}
+                          alt=""
+                        />
+                      </Menu.Button>
+                    </div>
+                    <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-100"
+                      enterFrom="transform opacity-0 scale-95"
+                      enterTo="transform opacity-100 scale-100"
+                      leave="transition ease-in duration-75"
+                      leaveFrom="transform opacity-100 scale-100"
+                      leaveTo="transform opacity-0 scale-95"
+                    >
+                      <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none">
+                        {userNavigation.map((item) => (
+                          <Menu.Item key={item.name}>
+                            {({ active }) => (
+                              <a
+                                href={item.href}
+                                className={classNames(
+                                  active ? 'bg-gray-100' : '',
+                                  'block py-2 px-4 text-sm text-gray-700'
+                                )}
+                              >
+                                {item.name}
+                              </a>
                             )}
-                          >
-                            {item.name}
-                          </a>
-                        )}
-                      </Menu.Item>
-                    ))}
-                  </Menu.Items>
-                </Transition>
-              </Menu>
+                          </Menu.Item>
+                        ))}
+                      </Menu.Items>
+                    </Transition>
+                  </Menu>
+                </>
+              )}
             </div>
           </div>
         </div>
