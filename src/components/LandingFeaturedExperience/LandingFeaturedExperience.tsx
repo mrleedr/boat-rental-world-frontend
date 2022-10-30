@@ -44,7 +44,7 @@ export const LandingFeaturedExperience = () => {
                 </div>
                 <a
                   href="#"
-                  className="mt-6 flex shrink-0 items-center justify-center rounded-md border border-white/25 bg-white/0 py-3 px-4 text-base font-medium text-white hover:bg-white/10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full"
+                  className="mt-6 flex shrink-0 items-center justify-center rounded-full border border-white/25 bg-white/0 py-2 px-4 text-sm font-medium text-white hover:bg-white/10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full"
                 >
                   View more Experience
                 </a>

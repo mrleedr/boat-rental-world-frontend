@@ -60,12 +60,12 @@ export const LandingMobileApp = () => {
             <div className="gap-x-4 mt-8 flex">
               <img
                 className="h-12"
-                src="/assets/images/icon/app-store.png"
+                src="/assets/images/icon/app-store-icon.png"
                 alt="app store"
               />
               <img
                 className="h-12"
-                src="/assets/images/icon/google-play.png"
+                src="/assets/images/icon/google-play-icon.png"
                 alt="google play"
               />
             </div>

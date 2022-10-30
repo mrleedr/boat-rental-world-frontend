@@ -234,6 +234,14 @@ export const LandingTopDestinations = () => {
           </Tab.Group>
         </div>
       </div>
+      <div className="mt-4 text-center">
+        <a
+          href="#"
+          className="mt-4 inline-flex justify-center items-center rounded-full bg-gradient-to-r from-casablanca-200 to-casablanca-400 px-6 py-2 text-sm font-medium text-casablanca-900 shadow-sm hover:from-casablanca-400 hover:to-casablanca-400 focus:outline-none"
+        >
+          More Destinations
+        </a>
+      </div>
     </div>
   );
 };

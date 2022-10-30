@@ -51,6 +51,14 @@ export const LandingBoatCategories = () => {
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
               cupidatat non proident, sunt in culpa qui.
             </p>
+            <div className="mt-4">
+              <a
+                href="#"
+                className="mt-4 inline-flex justify-center items-center rounded-full bg-gradient-to-r from-casablanca-200 to-casablanca-400 px-6 py-2 text-sm font-medium text-casablanca-900 shadow-sm hover:from-casablanca-400 hover:to-casablanca-400 focus:outline-none"
+              >
+                Explore more Boats
+              </a>
+            </div>
           </div>
           <dl className="mt-10 space-y-10 sm:grid sm:grid-cols-3 sm:gap-x-8 sm:gap-y-10 sm:space-y-0 lg:col-span-2 lg:mt-0">
             {destinations.map((destination) => (
