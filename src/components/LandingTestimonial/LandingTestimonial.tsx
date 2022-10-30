@@ -17,7 +17,7 @@ export const LandingTestimonial = () => {
             <div className="">
               <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
-                  <div className="relative text-lg font-medium text-gray-900 md:grow">
+                  <div className="relative text-lg text-gray-900 md:grow">
                     <svg
                       className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-gray-900/50"
                       fill="currentColor"
@@ -42,10 +42,10 @@ export const LandingTestimonial = () => {
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="text-base font-medium text-gray-900">
+                        <div className="font-semibold text-base text-gray-900">
                           Judith Black
                         </div>
-                        <div className="text-base font-medium text-gray-900">
+                        <div className="text-base text-gray-900">
                           CEO, Tuple
                         </div>
                       </div>
@@ -57,7 +57,7 @@ export const LandingTestimonial = () => {
             <div className="">
               <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
-                  <div className="relative text-lg font-medium text-gray-900 md:grow">
+                  <div className="relative text-lg text-gray-900 md:grow">
                     <svg
                       className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-gray-900/50"
                       fill="currentColor"
@@ -82,10 +82,10 @@ export const LandingTestimonial = () => {
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="text-base font-medium text-gray-900">
+                        <div className="font-semibold text-base text-gray-900">
                           Judith Black
                         </div>
-                        <div className="text-base font-medium text-gray-900">
+                        <div className="text-base text-gray-900">
                           CEO, Tuple
                         </div>
                       </div>
@@ -97,7 +97,7 @@ export const LandingTestimonial = () => {
             <div className="">
               <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
-                  <div className="relative text-lg font-medium text-gray-900 md:grow">
+                  <div className="relative text-lg text-gray-900 md:grow">
                     <svg
                       className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-gray-900/50"
                       fill="currentColor"
@@ -122,10 +122,10 @@ export const LandingTestimonial = () => {
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="text-base font-medium text-gray-900">
+                        <div className="font-semibold text-base text-gray-900">
                           Judith Black
                         </div>
-                        <div className="text-base font-medium text-gray-900">
+                        <div className="text-base text-gray-900">
                           CEO, Tuple
                         </div>
                       </div>

@@ -161,7 +161,7 @@ const categories = {
 
 export const LandingTopDestinations = () => {
   return (
-    <div className="bg-bone-50 py-16 lg:py-24">
+    <div className="bg-bone-50 py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:justify-between lg:px-8">
         <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl leading-tight">
           Top Destinations
@@ -174,7 +174,7 @@ export const LandingTopDestinations = () => {
       <div className="mt-8 mx-auto max-w-screen-2xl px-4 sm:px-6 lg:flex lg:justify-between lg:px-8">
         <div className="w-full max-w-full px-2 sm:px-0">
           <Tab.Group>
-            <Tab.List className="-mb-px flex space-x-8">
+            <Tab.List className="-mb-px flex space-x-8 overflow-x-scroll">
               {Object.keys(categories).map((category) => (
                 <Tab
                   key={category}

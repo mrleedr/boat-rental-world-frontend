@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LandingCallToAction = () => {
   return (
-    <div className="bg-cta-bg bg-cover bg-fixed py-16 lg:py-24">
+    <div className="bg-cta-bg bg-cover bg-fixed py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-lg bg-white shadow max-w-[608px]">
           <div className="px-4 py-5 sm:p-6 lg:p-8">

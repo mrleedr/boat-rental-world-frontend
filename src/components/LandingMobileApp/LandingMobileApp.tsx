@@ -27,7 +27,7 @@ const features = [
 
 export const LandingMobileApp = () => {
   return (
-    <div className="overflow-hidden bg-white py-16 lg:py-24">
+    <div className="overflow-hidden bg-white py-16 sm:py-24 lg:py-32">
       <div className="relative mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-2xl lg:px-8">
         <div className="relative lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
           <div className="relative">
@@ -72,7 +72,7 @@ export const LandingMobileApp = () => {
           </div>
           <div className="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
             <img
-              className="relative mx-auto w-full"
+              className="ml-4 lg:ml-0 relative mx-auto w-full"
               src="/assets/images/mobile-app.png"
               alt=""
             />

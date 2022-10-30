@@ -1,6 +1,6 @@
 export const LandingFeaturedExperience = () => {
   return (
-    <div className="bg-white py-16 sm:py-24">
+    <div className="bg-white py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:flex lg:justify-between lg:px-8">
         <div>
           <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl leading-tight">

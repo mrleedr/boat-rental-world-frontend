@@ -22,7 +22,7 @@ const howitworks = [
 export const LandingHowItWorks = () => {
   return (
     //
-    <div className="relative bg-chathams-blue-900">
+    <div className="relative bg-chathams-blue-900 py-16 sm:py-24 lg:py-32">
       <div className="absolute bottom-0 h-80 w-full xl:inset-0 xl:h-full">
         <div className="h-full w-full xl:grid xl:grid-cols-2">
           <div className="h-full xl:relative xl:col-start-2">
@@ -39,7 +39,7 @@ export const LandingHowItWorks = () => {
         </div>
       </div>
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-screen-2xl lg:px-8 xl:grid xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-x-8">
-        <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
+        <div className="relative pb-64 sm:pb-0 xl:col-start-1">
           <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl leading-tight">
             How It Works
           </h2>

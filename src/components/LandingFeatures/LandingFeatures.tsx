@@ -27,7 +27,7 @@ const features = [
 
 export const LandingFeatures = () => {
   return (
-    <div className="bg-white py-16 lg:py-24">
+    <div className="bg-white py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-screen-2xl lg:px-8">
         <h2 className="sr-only">A better way to send money.</h2>
         <dl className="space-y-10 lg:grid lg:grid-cols-4 lg:gap-8 lg:space-y-0">

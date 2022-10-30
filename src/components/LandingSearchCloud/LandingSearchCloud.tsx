@@ -2,7 +2,7 @@ import React from 'react';
 
 export const LandingSearchCloud = () => {
   return (
-    <div className="mx-auto max-w-screen-2xl py-16 px-6 sm:py-24 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-screen-2xl px-6 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
       <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
         <span className="block">Most Searched</span>
       </h2>
