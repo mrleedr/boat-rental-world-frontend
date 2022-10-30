@@ -97,7 +97,7 @@ export const Navbars = () => {
               {/* Mobile menu button */}
               <button
                 onClick={() => setOpenSide(true)}
-                className="-mx-2 inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-casablanca-500"
+                className="-mx-2 inline-flex items-center justify-center rounded-md p-2 bg-casablanca-400 text-white hover:bg-casablanca-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-casablanca-500"
               >
                 <span className="sr-only">Open menu</span>
                 <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
