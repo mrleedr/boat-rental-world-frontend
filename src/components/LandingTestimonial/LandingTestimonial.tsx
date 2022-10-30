@@ -19,7 +19,7 @@ export const LandingTestimonial = () => {
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
                   <div className="relative text-lg text-gray-900 md:grow">
                     <svg
-                      className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-gray-900/50"
+                      className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-casablanca-500/50"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
@@ -59,7 +59,7 @@ export const LandingTestimonial = () => {
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
                   <div className="relative text-lg text-gray-900 md:grow">
                     <svg
-                      className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-gray-900/50"
+                      className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-casablanca-500/50"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
@@ -99,7 +99,7 @@ export const LandingTestimonial = () => {
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
                   <div className="relative text-lg text-gray-900 md:grow">
                     <svg
-                      className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-gray-900/50"
+                      className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 text-casablanca-500/50"
                       fill="currentColor"
                       viewBox="0 0 32 32"
                       aria-hidden="true"

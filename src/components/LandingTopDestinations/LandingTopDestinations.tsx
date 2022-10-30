@@ -174,7 +174,7 @@ export const LandingTopDestinations = () => {
       <div className="mt-8 mx-auto max-w-screen-2xl px-4 sm:px-6 lg:flex lg:justify-between lg:px-8">
         <div className="w-full max-w-full px-2 sm:px-0">
           <Tab.Group>
-            <Tab.List className="-mb-px flex space-x-8 overflow-x-scroll">
+            <Tab.List className="-mb-px flex space-x-8 overflow-x-auto">
               {Object.keys(categories).map((category) => (
                 <Tab
                   key={category}
@@ -199,10 +199,10 @@ export const LandingTopDestinations = () => {
                     'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
                   )}
                 >
-                  <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-6 xl:gap-x-8">
+                  <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 xl:gap-x-8">
                     {destinations.map((destination) => (
                       <div key={destination.id} className="group relative">
-                        <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                        <div className="w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80 max-h-64 lg:max-h-80">
                           <img
                             src={destination.image}
                             alt="yacht"

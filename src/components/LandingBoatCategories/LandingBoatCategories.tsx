@@ -63,7 +63,7 @@ export const LandingBoatCategories = () => {
           <dl className="mt-10 space-y-10 sm:grid sm:grid-cols-3 sm:gap-x-8 sm:gap-y-10 sm:space-y-0 lg:col-span-2 lg:mt-0">
             {destinations.map((destination) => (
               <div key={destination.id} className="group relative">
-                <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-40">
+                <div className="w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-48 max-h-64">
                   <img
                     src={destination.image}
                     alt="yacht"
