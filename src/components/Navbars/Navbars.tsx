@@ -110,10 +110,20 @@ export const Navbars = () => {
               >
                 Register your Yacht
               </a>
-              <a href="#" className="ml-6 block font-medium text-gray-900">
+              <a
+                href="#"
+                className={`ml-6 block font-medium ${
+                  colorChange ? 'text-gray-900' : 'text-white'
+                }`}
+              >
                 Login
               </a>
-              <a href="#" className="ml-6 block font-medium text-gray-900">
+              <a
+                href="#"
+                className={`ml-6 block font-medium ${
+                  colorChange ? 'text-gray-900' : 'text-white'
+                }`}
+              >
                 Create account
               </a>
 

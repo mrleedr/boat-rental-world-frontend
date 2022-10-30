@@ -39,7 +39,7 @@ const destinations = [
 
 export const LandingBoatCategories = () => {
   return (
-    <div className="overflow-hidden bg-bone-50 py-16 sm:py-24 lg:py-32">
+    <div className="overflow-hidden bg-[#FAFAFA] py-16 sm:py-24 lg:py-32">
       <div className="relative mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div>
@@ -72,10 +72,10 @@ export const LandingBoatCategories = () => {
                 </div>
                 <div className="mt-4 flex justify-between">
                   <div>
-                    <h3 className="text-sm text-gray-600">
+                    <h3 className="text-sm text-gray-600 font-inter">
                       <a href="#">
                         <span aria-hidden="true" className="absolute inset-0" />
-                        {destination.available} Yachts Available
+                        {destination.available} Available
                       </a>
                     </h3>
                     <p className="mt-1 text-xl text-gray-900">

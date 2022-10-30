@@ -32,9 +32,9 @@ export const LandingFeatures = () => {
         <h2 className="sr-only">A better way to send money.</h2>
         <dl className="space-y-10 lg:grid lg:grid-cols-4 lg:gap-8 lg:space-y-0">
           {features.map((feature) => (
-            <div key={feature.name} className="flex gap-x-4">
+            <div key={feature.name} className="flex gap-x-6">
               <dt>
-                <div className="flex h-20 w-20 items-center justify-center text-casablanca-400">
+                <div className="flex h-16 w-16 items-center justify-center text-casablanca-400">
                   <img src={feature.image} alt="feature icon" />
                 </div>
               </dt>

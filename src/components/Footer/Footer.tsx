@@ -66,7 +66,7 @@ const navigation = {
 
 export const Footer = () => {
   return (
-    <footer className="bg-bone-100" aria-labelledby="footer-heading">
+    <footer className="bg-[#F4F4F5]" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -87,7 +87,7 @@ export const Footer = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-casablanca-900 hover:text-casablanca-500"
+                  className="text-gray-900 hover:text-casablanca-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -98,15 +98,15 @@ export const Footer = () => {
           <div className="mt-12 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-base font-medium text-casablanca-900">
-                  Solutions
+                <h3 className="text-base font-bold font-inter text-gray-900">
+                  Menu
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-casablanca-900"
+                        className="text-base text-gray-800 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -115,15 +115,15 @@ export const Footer = () => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-medium text-casablanca-900">
-                  Support
+                <h3 className="text-base font-bold font-inter text-gray-900">
+                  Menu
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-casablanca-900"
+                        className="text-base text-gray-800 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -134,15 +134,15 @@ export const Footer = () => {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-base font-medium text-casablanca-900">
-                  Company
+                <h3 className="text-base font-bold font-inter text-gray-900">
+                  Menu
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-casablanca-900"
+                        className="text-base text-gray-800 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -151,15 +151,15 @@ export const Footer = () => {
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">
-                <h3 className="text-base font-medium text-casablanca-900">
-                  Legal
+                <h3 className="text-base font-bold font-inter text-gray-900">
+                  Menu
                 </h3>
                 <ul role="list" className="mt-4 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-casablanca-900"
+                        className="text-base text-gray-800 hover:text-gray-900"
                       >
                         {item.name}
                       </a>
@@ -170,9 +170,9 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-12 border-t border-casablanca-900 pt-8">
-          <p className="text-base text-gray-800 xl:text-center">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+        <div className="mt-12 border-t border-gray-900 pt-8">
+          <p className="text-sm text-gray-800 xl:text-center">
+            &copy; 2022 Boat Rental World, Inc. All rights reserved.
           </p>
         </div>
       </div>

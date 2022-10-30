@@ -56,11 +56,11 @@ export const LandingHowItWorks = () => {
                   <div className="absolute flex h-12 w-12 items-center justify-center rounded-full bg-casablanca-500 text-white">
                     {i + 1}
                   </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-white">
+                  <p className="ml-16 text-lg font-medium leading-6 text-casablanca-500">
                     {item.name}
                   </p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-casablanca-400">
+                <dd className="mt-2 ml-16 text-base text-white">
                   {item.description}
                 </dd>
               </div>

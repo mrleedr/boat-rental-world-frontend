@@ -56,17 +56,19 @@ export const LandingHero = () => {
                   </a>
 
                   <nav
-                    className="inline-flex flex-wrap  items-center"
+                    className="mt-2 inline-flex flex-wrap items-center gap-x-2"
                     aria-label="Footer"
                   >
-                    <span className="text-sm text-gray-800">
-                      Most Searched:
-                    </span>
+                    <div>
+                      <span className="text-sm text-gray-800">
+                        Most Searched:
+                      </span>
+                    </div>
                     {mostSearched.map((item) => (
-                      <div key={item.name} className="p-2">
+                      <div key={item.name}>
                         <a
                           href={item.href}
-                          className="text-sm text-casablanca-400 hover:text-casablanca-900 underline font-semibold"
+                          className="text-sm text-gray-800 hover:text-casablanca-900 underline font-medium"
                         >
                           {item.name}
                         </a>

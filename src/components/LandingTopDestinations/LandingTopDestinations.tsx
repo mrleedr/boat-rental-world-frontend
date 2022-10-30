@@ -161,12 +161,12 @@ const categories = {
 
 export const LandingTopDestinations = () => {
   return (
-    <div className="bg-bone-50 py-16 sm:py-24 lg:py-32">
+    <div className="bg-[#FAFAFA] py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:justify-between lg:px-8">
         <h2 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl leading-tight">
-          Top Destinations
+          Top Rental Destinations
         </h2>
-        <p className="mt-3 text-base text-gray-800">
+        <p className="mt-3 text-base text-gray-800 max-w-xl">
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat.
         </p>
