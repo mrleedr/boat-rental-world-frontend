@@ -46,26 +46,26 @@ export const Navbars = () => {
       >
         <div className="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
           <div className="relative flex justify-between lg:gap-8 xl:grid xl:grid-cols-12">
-            <div className="flex md:absolute md:inset-y-0 md:left-0 lg:static xl:col-span-1">
+            <div className="flex lg:absolute lg:inset-y-0 lg:left-0 xl:static xl:col-span-1">
               <div className="flex shrink-0 items-center">
                 <a href="#">
                   {colorChange ? (
                     <img
-                      className="block h-12 w-auto"
-                      src="/assets/images/logo/boat-logo-original.svg"
+                      className="block h-10"
+                      src="/assets/images/logo/logo-only-original.svg"
                       alt="Your Company"
                     />
                   ) : (
                     <img
-                      className="block h-12 w-auto"
-                      src="/assets/images/logo/boat-logo-white.svg"
+                      className="block h-10"
+                      src="/assets/images/logo/logo-only-white.svg"
                       alt="Your Company"
                     />
                   )}
                 </a>
               </div>
             </div>
-            <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-6">
+            <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-5">
               <div className="flex items-center px-6 py-4 md:mx-auto md:max-w-3xl lg:mx-0 lg:max-w-none xl:px-0">
                 <div className="w-full">
                   <label htmlFor="search" className="sr-only">
@@ -103,7 +103,7 @@ export const Navbars = () => {
                 <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-            <div className="hidden lg:flex lg:items-center lg:justify-end xl:col-span-5">
+            <div className="hidden lg:flex lg:items-center lg:justify-end xl:col-span-6">
               <a
                 href="#"
                 className="ml-6 inline-flex items-center rounded-full bg-gradient-to-r from-casablanca-200 to-casablanca-400 px-6 py-2 text-sm font-medium text-casablanca-900 shadow-sm hover:from-casablanca-400 hover:to-casablanca-400 focus:outline-none"

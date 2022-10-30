@@ -74,7 +74,7 @@ export const Footer = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <img
-              className="h-16"
+              className="h-12"
               src="/assets/images/logo/boat-logo-original.svg"
               alt="Company name"
             />
