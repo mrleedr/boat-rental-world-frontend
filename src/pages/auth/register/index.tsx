@@ -32,7 +32,7 @@ const Register = () => {
             <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
               <form className="space-y-6" action="#" method="POST">
                 <div className="grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
-                  <div className="sm:col-span-3">
+                  <div className="col-span-6 sm:col-span-3">
                     <label
                       htmlFor="first-name"
                       className="block text-sm font-medium text-gray-700"
@@ -50,7 +50,7 @@ const Register = () => {
                     </div>
                   </div>
 
-                  <div className="sm:col-span-3">
+                  <div className="col-span-6 sm:col-span-3">
                     <label
                       htmlFor="last-name"
                       className="block text-sm font-medium text-gray-700"
