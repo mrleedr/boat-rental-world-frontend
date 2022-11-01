@@ -1,6 +1,7 @@
 import { Dialog, Menu, Transition } from '@headlessui/react';
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid';
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 import { Fragment, useState } from 'react';
 
 const user = {
@@ -110,22 +111,24 @@ export const Navbars = () => {
               >
                 Register your Yacht
               </a>
-              <a
-                href="#"
-                className={`ml-6 block font-medium ${
-                  colorChange ? 'text-gray-900' : 'text-white'
-                }`}
-              >
-                Login
-              </a>
-              <a
-                href="#"
-                className={`ml-6 block font-medium ${
-                  colorChange ? 'text-gray-900' : 'text-white'
-                }`}
-              >
-                Create account
-              </a>
+              <Link href="/auth/login">
+                <span
+                  className={`ml-6 block font-medium ${
+                    colorChange ? 'text-gray-900' : 'text-white'
+                  }`}
+                >
+                  Login
+                </span>
+              </Link>
+              <Link href="/auth/register">
+                <span
+                  className={`ml-6 block font-medium ${
+                    colorChange ? 'text-gray-900' : 'text-white'
+                  }`}
+                >
+                  Create Account
+                </span>
+              </Link>
 
               {false && (
                 <>
