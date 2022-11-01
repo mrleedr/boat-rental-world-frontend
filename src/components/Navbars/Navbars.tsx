@@ -49,7 +49,7 @@ export const Navbars = () => {
           <div className="relative flex justify-between lg:gap-8 xl:grid xl:grid-cols-12">
             <div className="flex xl:col-span-1">
               <div className="flex shrink-0 items-center">
-                <a href="#">
+                <Link href="/">
                   {colorChange ? (
                     <img
                       className="block h-10"
@@ -63,7 +63,7 @@ export const Navbars = () => {
                       alt="Your Company"
                     />
                   )}
-                </a>
+                </Link>
               </div>
             </div>
             <div className="min-w-0 flex-1 md:px-8 lg:px-0 xl:col-span-5 hidden lg:block">
