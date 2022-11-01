@@ -87,7 +87,7 @@ export const Footer = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-900 hover:text-casablanca-500"
+                  className="text-gray-900 hover:text-[#0891B2]"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -106,7 +106,7 @@ export const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-gray-900"
+                        className="hover:text-[#0891B2] text-base text-gray-800"
                       >
                         {item.name}
                       </a>
@@ -123,7 +123,7 @@ export const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-gray-900"
+                        className="hover:text-[#0891B2] text-base text-gray-800"
                       >
                         {item.name}
                       </a>
@@ -142,7 +142,7 @@ export const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-gray-900"
+                        className="hover:text-[#0891B2] text-base text-gray-800"
                       >
                         {item.name}
                       </a>
@@ -159,7 +159,7 @@ export const Footer = () => {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-base text-gray-800 hover:text-gray-900"
+                        className="hover:text-[#0891B2] text-base text-gray-800"
                       >
                         {item.name}
                       </a>

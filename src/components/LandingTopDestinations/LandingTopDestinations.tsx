@@ -180,7 +180,7 @@ export const LandingTopDestinations = () => {
                   key={category}
                   className={({ selected }) =>
                     classNames(
-                      'whitespace-nowrap py-4 px-1 border-b-2 text-sm focus:outline-none',
+                      'whitespace-nowrap py-4 px-1 border-b-4 text-sm focus:outline-none',
                       selected
                         ? 'border-casablanca-500 text-casablanca-500'
                         : 'border-transparent text-gray-600 hover:text-gray-700 hover:border-gray-300'
@@ -211,7 +211,7 @@ export const LandingTopDestinations = () => {
                         </div>
                         <div className="mt-4 flex justify-between">
                           <div>
-                            <h3 className="text-sm text-gray-600 font-inter">
+                            <h3 className="text-sm text-[#71717A] font-inter">
                               <a href="#">
                                 <span
                                   aria-hidden="true"
@@ -220,7 +220,7 @@ export const LandingTopDestinations = () => {
                                 {destination.available} Yachts Available
                               </a>
                             </h3>
-                            <p className="mt-1 text-xl text-gray-900">
+                            <p className="mt-1 text-xl text-gray-900 font-medium">
                               {destination.title}
                             </p>
                           </div>

@@ -16,6 +16,9 @@ module.exports = {
       '6xl': '3.5rem',
     },
     extend: {
+      boxShadow: {
+        'card-shadow': '0px 0px 15px rgba(141, 140, 140, 0.15)',
+      },
       backgroundImage: {
         'hero-bg': "url('/assets/images/hero-bg.jpg')",
         'cta-bg': "url('/assets/images/cta-bg.png')",

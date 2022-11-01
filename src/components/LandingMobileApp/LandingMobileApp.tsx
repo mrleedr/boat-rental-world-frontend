@@ -57,7 +57,7 @@ export const LandingMobileApp = () => {
                 </div>
               ))}
             </div>
-            <div className="gap-x-4 mt-8 flex">
+            <div className="gap-x-4 mt-12 flex">
               <img
                 className="h-12"
                 src="/assets/images/icon/app-store-icon.png"

@@ -2,25 +2,25 @@ const features = [
   {
     name: 'Best Price Guarantee',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque',
+      'Ut enim ad minim veniam, quis nostrud exercitation ullamco labo.',
     image: '/assets/images/icon/feature-icon-1.svg',
   },
   {
     name: 'Curated Destinations',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque',
+      'Ut enim ad minim veniam, quis nostrud exercitation ullamco labo.',
     image: '/assets/images/icon/feature-icon-2.svg',
   },
   {
     name: '24/7 Customer Service',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque',
+      'Ut enim ad minim veniam, quis nostrud exercitation ullamco labo.',
     image: '/assets/images/icon/feature-icon-3.svg',
   },
   {
     name: '100% Verified Boats',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque',
+      'Ut enim ad minim veniam, quis nostrud exercitation ullamco labo.',
     image: '/assets/images/icon/feature-icon-4.svg',
   },
 ];

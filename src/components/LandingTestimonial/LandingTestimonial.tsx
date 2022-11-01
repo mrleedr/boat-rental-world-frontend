@@ -10,7 +10,7 @@ export const LandingTestimonial = () => {
         <div className="mt-12">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="">
-              <div className="flow-root rounded-lg bg-white shadow px-6 pb-8">
+              <div className="flow-root rounded-lg bg-white shadow-card-shadow px-6 pb-8">
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
                   <div className="relative text-lg text-gray-900 md:grow">
                     <svg
@@ -35,8 +35,8 @@ export const LandingTestimonial = () => {
                         <div className="font-semibold text-base text-gray-900">
                           Judith Black
                         </div>
-                        <div className="text-base text-gray-900">
-                          CEO, Tuple
+                        <div className="text-xs text-[#71717A]">
+                          Long Beach, California
                         </div>
                       </div>
                     </div>
@@ -113,7 +113,10 @@ export const LandingTestimonial = () => {
                       </span>
                     </div>
                   </footer>
-                  <p className="mt-4 relative text-lg">
+                  <h3 className="mt-4 text-lg font-inter text-[#0891B2]">
+                    Testimonial Title Here
+                  </h3>
+                  <p className="mt-2 relative text-base">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nemo expedita voluptas culpa sapiente alias molestiae.
                     Numquam corrupti in laborum sed rerum et corporis.
@@ -122,7 +125,7 @@ export const LandingTestimonial = () => {
               </div>
             </div>
             <div className="">
-              <div className="flow-root rounded-lg bg-white shadow px-6 pb-8">
+              <div className="flow-root rounded-lg bg-white shadow-card-shadow px-6 pb-8">
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
                   <div className="relative text-lg text-gray-900 md:grow">
                     <svg
@@ -147,8 +150,8 @@ export const LandingTestimonial = () => {
                         <div className="font-semibold text-base text-gray-900">
                           Judith Black
                         </div>
-                        <div className="text-base text-gray-900">
-                          CEO, Tuple
+                        <div className="text-xs text-[#71717A]">
+                          Long Beach, California
                         </div>
                       </div>
                     </div>
@@ -225,7 +228,10 @@ export const LandingTestimonial = () => {
                       </span>
                     </div>
                   </footer>
-                  <p className="mt-4 relative text-lg">
+                  <h3 className="mt-4 text-lg font-inter text-[#0891B2]">
+                    Testimonial Title Here
+                  </h3>
+                  <p className="mt-2 relative text-base">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nemo expedita voluptas culpa sapiente alias molestiae.
                     Numquam corrupti in laborum sed rerum et corporis.
@@ -234,7 +240,7 @@ export const LandingTestimonial = () => {
               </div>
             </div>
             <div className="">
-              <div className="flow-root rounded-lg bg-white shadow px-6 pb-8">
+              <div className="flow-root rounded-lg bg-white shadow-card-shadow px-6 pb-8">
                 <blockquote className="mt-6 md:flex md:grow md:flex-col">
                   <div className="relative text-lg text-gray-900 md:grow">
                     <svg
@@ -259,8 +265,8 @@ export const LandingTestimonial = () => {
                         <div className="font-semibold text-base text-gray-900">
                           Judith Black
                         </div>
-                        <div className="text-base text-gray-900">
-                          CEO, Tuple
+                        <div className="text-xs text-[#71717A]">
+                          Long Beach, California
                         </div>
                       </div>
                     </div>
@@ -337,7 +343,10 @@ export const LandingTestimonial = () => {
                       </span>
                     </div>
                   </footer>
-                  <p className="mt-4 relative text-lg">
+                  <h3 className="mt-4 text-lg font-inter text-[#0891B2]">
+                    Testimonial Title Here
+                  </h3>
+                  <p className="mt-2 relative text-base">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nemo expedita voluptas culpa sapiente alias molestiae.
                     Numquam corrupti in laborum sed rerum et corporis.
