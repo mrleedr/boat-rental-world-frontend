@@ -84,7 +84,7 @@ export const Navbars = () => {
                     Search
                   </label>
                   <div
-                    className={`relative ${
+                    className={`transition-all relative ${
                       colorChange ? 'visible' : 'invisible'
                     }`}
                   >

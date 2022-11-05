@@ -9,6 +9,7 @@ import {
   ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
+  HeartIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import { Fragment, useState } from 'react';
@@ -59,140 +60,140 @@ function classNames(...classes: any[]) {
 const products = [
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
   },
   {
     name: 'Scuba Diving in Philippines Island',
-    price: 'PHP7,500',
+    price: '$7,500',
     href: '#',
     imageSrc: '/assets/images/yacht/yacht-1.png',
     imageAlt: 'Yacht',
@@ -454,6 +455,7 @@ const Login = () => {
                       alt={product.imageAlt}
                       className="h-full w-full object-cover object-center"
                     />
+                    <HeartIcon className="h-6 w-6 text-white absolute top-2 right-2" />
                   </div>
                   <h3 className="mt-4 text-base text-gray-900 font-inter">
                     <a href={product.href}>
@@ -461,10 +463,29 @@ const Login = () => {
                       {product.name}
                     </a>
                   </h3>
-                  <p className="mt-1 text-sm font-medium text-gray-900">
-                    {product.price}{' '}
-                    <span className="text-xs text-white">person</span>
-                  </p>
+                  <div className="flex justify-between items-center">
+                    <p className="mt-1 text-sm font-medium text-casablanca-500">
+                      {product.price}{' '}
+                      <span className="text-xs text-gray-800">person</span>
+                    </p>
+                    <div className="flex items-center gap-x-1">
+                      <span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          className="w-4 h-4 text-casablanca-500"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                      <span className="text-base text-casablanca-500">4.5</span>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
