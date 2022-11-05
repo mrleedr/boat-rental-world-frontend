@@ -24,7 +24,7 @@ const userNavigation1 = [
 ];
 
 const userNavigation2 = [
-  { name: 'Account Details', href: '#' },
+  { name: 'Profile', href: '#' },
   { name: 'Logout', href: '#' },
 ];
 
@@ -250,28 +250,20 @@ export const Navbars = () => {
                   leaveTo="translate-x-full"
                 >
                   <Dialog.Panel className="pointer-events-auto w-screen max-w-md">
-                    <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
-                      <div className="px-4 py-6 sm:px-6">
-                        <div className="flex items-start justify-between">
-                          <h2
-                            id="slide-over-heading"
-                            className="text-lg font-medium text-gray-900 font-inter"
-                          >
+                    <div className="flex h-full flex-col overflow-y-auto bg-white shadow-xl">
+                      <div className="p-4">
+                        <div className="flex items-center justify-between">
+                          <h2 className="text-lg font-medium text-gray-900">
                             Menu
                           </h2>
-                          <div className="ml-3 flex h-7 items-center">
-                            <button
-                              type="button"
-                              className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-casablanca-500"
-                              onClick={() => setOpenSide(false)}
-                            >
-                              <span className="sr-only">Close panel</span>
-                              <XMarkIcon
-                                className="h-6 w-6"
-                                aria-hidden="true"
-                              />
-                            </button>
-                          </div>
+                          <button
+                            type="button"
+                            className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-casablanca-500"
+                            onClick={() => setOpenSide(false)}
+                          >
+                            <span className="sr-only">Close menu</span>
+                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                          </button>
                         </div>
                       </div>
                       {/* Main */}
