@@ -211,7 +211,7 @@ export const LandingTopDestinations = () => {
                         </div>
                         <div className="mt-4 flex justify-between">
                           <div>
-                            <h3 className="text-sm text-[#71717A] font-inter">
+                            <h3 className="text-xs text-[#71717A] font-inter">
                               <a href="#">
                                 <span
                                   aria-hidden="true"
@@ -220,7 +220,7 @@ export const LandingTopDestinations = () => {
                                 {destination.available} Yachts Available
                               </a>
                             </h3>
-                            <p className="mt-1 text-xl text-gray-900 font-medium">
+                            <p className="mt-1 text-lg text-gray-900 font-medium leading-tight">
                               {destination.title}
                             </p>
                           </div>

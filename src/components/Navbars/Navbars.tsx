@@ -11,10 +11,21 @@ const user = {
     'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
 };
 
-const userNavigation = [
-  { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
-  { name: 'Sign out', href: '#' },
+const userNavigation0 = [
+  { name: 'Dashboard', href: '#' },
+  { name: 'Messages', href: '#' },
+  { name: 'Entries', href: '#' },
+  { name: 'Favorites', href: '#' },
+];
+
+const userNavigation1 = [
+  { name: 'Listings', href: '#' },
+  { name: 'Payout', href: '#' },
+];
+
+const userNavigation2 = [
+  { name: 'Account Details', href: '#' },
+  { name: 'Logout', href: '#' },
 ];
 
 function classNames(...classes: string[]) {
@@ -130,7 +141,7 @@ export const Navbars = () => {
                 </span>
               </Link>
 
-              {false && (
+              {true && (
                 <>
                   {' '}
                   <a
@@ -140,7 +151,7 @@ export const Navbars = () => {
                     <span className="sr-only">View notifications</span>
                     <BellIcon className="h-6 w-6" aria-hidden="true" />
                   </a>
-                  <Menu as="div" className="relative ml-5 shrink-0">
+                  <Menu as="div" className="relative ml-3 shrink-0">
                     <div>
                       <Menu.Button className="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-casablanca-500 focus:ring-offset-2">
                         <span className="sr-only">Open user menu</span>
@@ -160,22 +171,58 @@ export const Navbars = () => {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none">
-                        {userNavigation.map((item) => (
-                          <Menu.Item key={item.name}>
-                            {({ active }) => (
-                              <a
-                                href={item.href}
-                                className={classNames(
-                                  active ? 'bg-gray-100' : '',
-                                  'block py-2 px-4 text-sm text-gray-700'
-                                )}
-                              >
-                                {item.name}
-                              </a>
-                            )}
-                          </Menu.Item>
-                        ))}
+                      <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none">
+                        <div className="py-1">
+                          {userNavigation0.map((item) => (
+                            <Menu.Item key={item.name}>
+                              {({ active }) => (
+                                <a
+                                  href={item.href}
+                                  className={classNames(
+                                    active ? 'bg-gray-100' : '',
+                                    'block py-2 px-4 text-sm text-gray-700'
+                                  )}
+                                >
+                                  {item.name}
+                                </a>
+                              )}
+                            </Menu.Item>
+                          ))}
+                        </div>
+                        <div className="py-1">
+                          {userNavigation1.map((item) => (
+                            <Menu.Item key={item.name}>
+                              {({ active }) => (
+                                <a
+                                  href={item.href}
+                                  className={classNames(
+                                    active ? 'bg-gray-100' : '',
+                                    'block py-2 px-4 text-sm text-gray-700'
+                                  )}
+                                >
+                                  {item.name}
+                                </a>
+                              )}
+                            </Menu.Item>
+                          ))}
+                        </div>
+                        <div className="py-1">
+                          {userNavigation2.map((item) => (
+                            <Menu.Item key={item.name}>
+                              {({ active }) => (
+                                <a
+                                  href={item.href}
+                                  className={classNames(
+                                    active ? 'bg-gray-100' : '',
+                                    'block py-2 px-4 text-sm text-gray-700'
+                                  )}
+                                >
+                                  {item.name}
+                                </a>
+                              )}
+                            </Menu.Item>
+                          ))}
+                        </div>
                       </Menu.Items>
                     </Transition>
                   </Menu>
