@@ -12,7 +12,7 @@ const user = {
 };
 
 const userNavigation0 = [
-  { name: 'Dashboard', href: '#' },
+  { name: 'Dashboard', href: '/dashboard' },
   { name: 'Messages', href: '#' },
   { name: 'Entries', href: '#' },
   { name: 'Favorites', href: '#' },

@@ -2,7 +2,7 @@ import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
+  { name: 'Dashboard', href: '/dashboard', current: true },
   { name: 'Messages', href: '#', current: false },
   { name: 'Entries', href: '#', current: false },
   { name: 'Favorites', href: '#', current: false },
@@ -28,7 +28,7 @@ const Login = () => {
       <div className="min-h-full bg-gray-200">
         <div className="bg-chathams-blue-900 pb-24">
           <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:max-w-screen-2xl lg:px-8 ">
-            <div className="pt-20 border-t border-white/20 py-5">
+            <div className="pt-20 py-5">
               <div className="flex items-center gap-8 overflow-x-auto">
                 <nav className="flex space-x-4">
                   {navigation.map((item) => (
